@@ -15,7 +15,7 @@ const config: Config = {
       },
       colors: {
         doveblue: "#456990",
-        dovebluelight: "#edf9fd",
+        dovebluelight: "#c5d8ed",
         dovecoral: "#ef767a",
       },
     },

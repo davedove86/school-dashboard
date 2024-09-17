@@ -22,7 +22,7 @@ export default function DashboardLayout({
             width={32}
             height={32}
           />
-          <span className="hidden lg:block text-gray-500 text-sm font-semibold">
+          <span className="hidden lg:block text-gray-500 text-sm font-bold">
             Dove School
           </span>
         </Link>
