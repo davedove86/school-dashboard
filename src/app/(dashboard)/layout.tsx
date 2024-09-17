@@ -11,23 +11,25 @@ export default function DashboardLayout({
   return (
     <div className="h-screen flex">
       {/* Leftside */}
-      <div className="w-[14%] md:w-[8%] lg:w-[16%] xl:w-[14% p-4">
+      <div className="w-[14%] md:w-[8%] lg:w-[16%] xl:w-[14%] p-4">
         <Link
           href="/"
           className="flex items-center justify-center lg:justify-start gap-2"
         >
           <Image
-            src="/logo.png"
+            src="/logo.svg"
             alt="Dove School Logo"
             width={32}
             height={32}
           />
-          <span className="hidden lg:block">Dove School</span>
+          <span className="hidden lg:block text-gray-500 text-sm font-semibold">
+            Dove School
+          </span>
         </Link>
         <Menu />
       </div>
       {/* Rightside */}
-      <div className="w-[86%] md:w-[92%] lg:w-[84%] xl:w-[86%] bg-[#f7f8fa] overflow-scroll">
+      <div className="w-[86%] md:w-[92%] lg:w-[84%] xl:w-[86%] bg-[#fcfcfc] overflow-scroll">
         <Navbar />
         {children}
       </div>
