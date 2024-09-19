@@ -855,63 +855,54 @@ export const eventsData = [
 export const announcementsData = [
   {
     id: 1,
-    title: "About 4A Math Test",
+    title: "Student Survey",
     class: "4A",
-    date: "2025-01-01",
+    date: "16/09/2024",
+    description: "Our upcoming student survey is now ready.",
   },
   {
     id: 2,
     title: "About 3A Math Test",
     class: "3A",
-    date: "2025-01-01",
+    date: "10/09/2024",
+    description: "This is an announcement about the upcoming Math test for class 3A.",
   },
   {
     id: 3,
-    title: "About 3B Math Test",
+    title: "Books In Class",
     class: "3B",
-    date: "2025-01-01",
+    date: "02/09/2024",
+    description: "Please bring your books for the upcoming class.",
   },
   {
     id: 4,
     title: "About 6A Math Test",
     class: "6A",
-    date: "2025-01-01",
+    date: "24/08/2024",
   },
   {
     id: 5,
     title: "About 8C Math Test",
     class: "8C",
-    date: "2025-01-01",
+    date: "14/08/2024",
   },
   {
     id: 6,
     title: "About 2A Math Test",
     class: "2A",
-    date: "2025-01-01",
+    date: "10/08/2024",
   },
   {
     id: 7,
     title: "About 4C Math Test",
     class: "4C",
-    date: "2025-01-01",
+    date: "04/08/2024",
   },
   {
     id: 8,
     title: "About 4B Math Test",
     class: "4B",
-    date: "2025-01-01",
-  },
-  {
-    id: 9,
-    title: "About 3C Math Test",
-    class: "3C",
-    date: "2025-01-01",
-  },
-  {
-    id: 10,
-    title: "About 1C Math Test",
-    class: "1C",
-    date: "2025-01-01",
+    date: "01/08/2024",
   },
 ];
 
@@ -921,8 +912,8 @@ export const calendarEvents = [
   {
     title: "Math",
     allDay: false,
-    start: new Date(2024, 7, 12, 8, 0),
-    end: new Date(2024, 7, 12, 8, 45),
+    start: new Date(2024, 9, 18, 10, 0),
+    end: new Date(2024, 9, 18, 10, 45),
   },
   {
     title: "English",
@@ -1057,7 +1048,7 @@ export const calendarEvents = [
   {
     title: "History",
     allDay: false,
-    start: new Date(2024, 7, 16, 14, 0),
-    end: new Date(2024, 7, 16, 14, 45),
+    start: new Date(2024, 9, 16, 14, 0),
+    end: new Date(2024, 9, 16, 14, 45),
   },
 ];
