@@ -2,7 +2,6 @@ import Pagination from "@/components/Pagination";
 import Table from "@/components/Table";
 import TableSearch from "@/components/TableSearch";
 import { role, studentsData } from "@/lib/data";
-import { access } from "fs";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -30,7 +29,7 @@ const columns = [
     className: "hidden md:table-cell",
   },
   {
-    header: "grade",
+    header: "Grade",
     accessor: "grade",
     className: "hidden md:table-cell",
   },
@@ -45,7 +44,7 @@ const StudentListPage = () => {
   const renderRow = (item: Student) => (
     <tr
       key={item.id}
-      className="border-b border-gray-200 even:bg-slate-50 text-sm hover:bg-dovebluelight cursor-pointer"
+      className="border-b border-gray-200 even:bg-slate-50 text-sm hover:bg-dovebluelight"
     >
       <td className="flex items-center gap-4 p-4">
         <Image
@@ -67,7 +66,7 @@ const StudentListPage = () => {
         <div className="flex items-center gap-2">
           <Link href={`/list/students/${item.id}`}>
             <button className="w-7 h-7 flex items-center justify-center rounded-full bg-doveblue">
-              <Image src="/view.png" alt="view icon" width={16} height={16} />
+              <Image src="/edit.png" alt="view icon" width={16} height={16} />
             </button>
           </Link>
           {role == "admin" && (

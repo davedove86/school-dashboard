@@ -667,52 +667,54 @@ export const assignmentsData = [
 ];
 
 export const resultsData = [
+  //change the data in the resultsData below to random data so none are the same
+
   {
     id: 1,
     subject: "Math",
     class: "1A",
     teacher: "John Doe",
-    student: "John Doe",
+    student: "Jane Smith",
     date: "2025-01-01",
     type: "exam",
-    score: 90,
+    score: 85,
   },
   {
     id: 2,
     subject: "English",
     class: "2A",
-    teacher: "John Doe",
-    student: "John Doe",
+    teacher: "David Briggs",
+    student: "Liz Hall",
     date: "2025-01-01",
     type: "exam",
-    score: 90,
+    score: 95,
   },
   {
     id: 3,
     subject: "Science",
     class: "3A",
-    teacher: "John Doe",
+    teacher: "Mike Geller",
     student: "John Doe",
     date: "2025-01-01",
     type: "exam",
-    score: 90,
+    score: 75,
   },
   {
     id: 4,
     subject: "Social Studies",
     class: "1B",
-    teacher: "John Doe",
+    teacher: "Jane Doe",
     student: "John Doe",
     date: "2025-01-01",
     type: "exam",
-    score: 90,
+    score: 70,
   },
   {
     id: 5,
     subject: "Art",
     class: "4A",
-    teacher: "John Doe",
-    student: "John Doe",
+    teacher: "Jane Smith",
+    student: "Jane Doe",
     date: "2025-01-01",
     type: "exam",
     score: 90,
@@ -721,18 +723,18 @@ export const resultsData = [
     id: 6,
     subject: "Music",
     class: "5A",
-    teacher: "John Doe",
+    teacher: "Mike Geller",
     student: "John Doe",
     date: "2025-01-01",
     type: "exam",
-    score: 90,
+    score: 75,
   },
   {
     id: 7,
     subject: "History",
     class: "6A",
     teacher: "John Doe",
-    student: "John Doe",
+    student: "Jane Smith",
     date: "2025-01-01",
     type: "exam",
     score: 90,
@@ -741,32 +743,33 @@ export const resultsData = [
     id: 8,
     subject: "Geography",
     class: "6B",
-    teacher: "John Doe",
+    teacher: "Jane Doe",
     student: "John Doe",
     date: "2025-01-01",
     type: "exam",
-    score: 90,
+    score: 85,
   },
   {
     id: 9,
     subject: "Physics",
     class: "7A",
-    teacher: "John Doe",
-    student: "John Doe",
+    teacher: "Mike Geller",
+    student: "Jane Smith",
     date: "2025-01-01",
     type: "exam",
-    score: 90,
+    score: 95,
   },
   {
     id: 10,
     subject: "Chemistry",
     class: "8A",
-    teacher: "John Doe",
+    teacher: "Jane Smith",
     student: "John Doe",
     date: "2025-01-01",
     type: "exam",
-    score: 90,
+    score: 55,
   },
+
 ];
 
 export const eventsData = [
@@ -905,8 +908,6 @@ export const announcementsData = [
     date: "01/08/2024",
   },
 ];
-
-
 // YOU SHOULD CHANGE THE DATES OF THE EVENTS TO THE CURRENT DATE TO SEE THE EVENTS ON THE CALENDAR
 export const calendarEvents = [
   {

@@ -2,7 +2,6 @@ import Pagination from "@/components/Pagination";
 import Table from "@/components/Table";
 import TableSearch from "@/components/TableSearch";
 import { role, teachersData } from "@/lib/data";
-import { access } from "fs";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -56,7 +55,7 @@ const TeacherListPage = () => {
   const renderRow = (item: Teacher) => (
     <tr
       key={item.id}
-      className="border-b border-gray-200 even:bg-slate-50 text-sm hover:bg-dovebluelight cursor-pointer"
+      className="border-b border-gray-200 even:bg-slate-50 text-sm hover:bg-dovebluelight"
     >
       <td className="flex items-center gap-4 p-4">
         <Image
